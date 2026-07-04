@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>طراحی وب‌سایت</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            background: #ffffff;
+            color: #000000;
+            line-height: 2;
+            padding: 20px;
+        }
+
+        .site {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        /* هدر */
+        .header {
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 1.7rem;
+            color: #000000;
+        }
+
+        .header p {
+            color: #000000;
+            font-size: 0.95rem;
+        }
+
+        /* عکس */
+        .pic {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid #000000;
+            margin: 15px 0;
+        }
+
+        /* بخش خدمات */
+        .services {
+            background: #ffffff;
+            padding: 18px 20px;
+            border-radius: 8px;
+            margin: 18px 0;
+            border-right: 4px solid #000000;
+        }
+
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .services ul li {
+            padding: 4px 0;
+            border-bottom: 1px dashed #ffffff;
+        }
+
+        .services ul li:last-child {
+            border-bottom: none;
+        }
+
+        .services ul li::before {
+            content: "✓ ";
+            color: #000000;
+            font-weight: bold;
+        }
+
+        /* دکمه */
+        .btn {
+            display: inline-block;
+            background: #000000;
+            color: #ffffff;
+            padding: 10px 32px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 8px 0;
+        }
+
+        .btn:hover {
+            background: #000000;
+        }
+
+        /* تماس */
+        .contact {
+            background: #ffffff;
+            padding: 18px 20px;
+            border-radius: 8px;
+            margin-top: 25px;
+            text-align: center;
+            border: 1px solid #ffffff;
+        }
+
+        .contact a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* فوتر */
+        .footer {
+            margin-top: 25px;
+            font-size: 0.8rem;
+            color: #8d8d8d;
+            text-align: center;
+            border-top: 1px solid #ffffff;
+            padding-top: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="site">
+
+    <!-- هدر -->
+    <div class="header">
+        <h1>💻 طراحی وب‌سایت</h1>
+        <p>ساخت سایت حرفه‌ای و معمولی برای کسب‌وکار شما</p>
+    </div>
+
+    <!-- عکس -->
+    <img class="pic" src="https://uploadkon.ir/uploads/d2b103_26GF-R1.png" alt="تصویر سایت" />
+
+    <!-- توضیح -->
+    <p style="color:#000000; margin:12px 0;">
+        یه سایت ساده و کاربردی برای معرفی خدمات، محصولات یا کار شما.
+    </p>
+
+    <!-- خدمات -->
+    <div class="services">
+        <p><strong>✅ کارهایی که برات انجام میدم:</strong></p>
+        <ul>
+            <li>ساخت سایت شرکتی و شخصی</li>
+            <li>صفحه معرفی خدمات و محصولات</li>
+            <li>لندینگ پیج ساده</li>
+            <li>سایت رزومه و نمونه کار</li>
+            <li>بهینه برای موبایل و کامپیوتر</li>
+        </ul>
+    </div>
+
+
+    <p style="color:#000000; margin:12px 0;">
+        فقط کافیه بگی چه نوع سایتی می‌خوای، من برات آماده می‌کنم.
+    </p>
+
+    
+    <!-- تماس -->
+    <div id="contact" class="contact">
+        <p style="font-weight:bold; margin-bottom:4px;">📩 ارتباط با من</p>
+        <a href="https://rubika.ir/GameFace_Support" target="_blank">GameFace_Support</a>
+        <p style="font-size:0.8rem; color:#000000; margin-top:5px;">برای مشاوره و ثبت سفارش پیام بدید</p>
+    </div>
+
+    <!-- فوتر -->
+    <div class="footer">
+        گروه GF — طراحی وب‌سایت
+    </div>
+
+</div>
+
+</body>
+</html>
